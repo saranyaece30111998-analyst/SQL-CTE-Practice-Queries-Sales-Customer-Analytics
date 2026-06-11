@@ -26,7 +26,7 @@ WITH CustomerQuantity AS (
 )
 SELECT * FROM CustomerQuantity WHERE TotalQuantity > 3;
 ```
-📷 Screenshot: `screenshots/query1.png`
+
 
 ---
 
