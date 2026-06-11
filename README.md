@@ -241,7 +241,8 @@ WITH CustomerProducts AS (
 )
 SELECT * FROM CustomerProducts WHERE ProductCount > 1;
 ```
-📷 Screenshot: `screenshots/query15.png`
+- <img width="856" height="628" alt="Screenshot 2026-06-11 201402" src="https://github.com/user-attachments/assets/6006f2bd-f118-4709-8c25-fdd2ae39146a" />
+
 
 ---
 
