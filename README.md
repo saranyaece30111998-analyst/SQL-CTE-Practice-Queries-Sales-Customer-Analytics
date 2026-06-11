@@ -175,6 +175,7 @@ AvgPurchase AS (
 SELECT * FROM CustomerPurchase cp, AvgPurchase ap
 WHERE cp.TotalPurchase > ap.AvgPurchaseAmount;
 ```
+- <img width="1091" height="688" alt="Screenshot 2026-06-11 200911" src="https://github.com/user-attachments/assets/5d838488-f7f1-48cb-aabd-bbbf9dfc8323" />
 
 ---
 
