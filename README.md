@@ -27,7 +27,7 @@ WITH CustomerQuantity AS (
 SELECT * FROM CustomerQuantity WHERE TotalQuantity > 3;
 ```
 
-
+- 
 ---
 
 ### 2. Total Sales Amount per Order
@@ -141,7 +141,7 @@ WITH CityCustomers AS (
 )
 SELECT * FROM CityCustomers WHERE CustomerCount > 2;
 ```
-📷 Screenshot: `screenshots/query9.png`
+📷 Screenshot: `sc
 
 ---
 
