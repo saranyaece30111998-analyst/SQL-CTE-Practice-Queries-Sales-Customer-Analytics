@@ -156,6 +156,7 @@ WITH DailySales AS (
 SELECT * FROM DailySales;
 ```
 
+- <img width="642" height="493" alt="Screenshot 2026-06-11 200805" src="https://github.com/user-attachments/assets/0bc0880c-15ea-409d-9d16-526633b6baed" />
 
 
 
