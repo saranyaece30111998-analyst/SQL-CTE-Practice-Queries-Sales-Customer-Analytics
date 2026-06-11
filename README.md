@@ -157,79 +157,7 @@ SELECT * FROM DailySales;
 ```
 
 
-### 6. Top 3 Most Sold Products
-```sql
-WITH ProductSales AS (
-    SELECT ProductID, SUM(Quantity) AS TotalSold
-    FROM Orders
-    GROUP BY ProductID
-)
-SELECT * FROM ProductSales
-ORDER BY TotalSold DESC
-LIMIT 3;
-```
-📷 Screenshot: `screenshots/query6.png`
 
----
-
-### 7. Total Revenue per Product
-```sql
-WITH ProductRevenue AS (
-    SELECT ProductID, SUM(p.Price * o.Quantity) AS Revenue
-    FROM Orders o
-    JOIN Products p ON o.ProductID = p.ProductID
-    GROUP BY ProductID
-)
-SELECT * FROM ProductRevenue;
-```
-📷 Screenshot: `screenshots/query7.png`
-
----
-
-### 8. Salesperson Performance (Sales vs Target)
-```sql
-WITH SalesPerformance AS (
-    SELECT s.SalespersonID, s.SalespersonName,
-           SUM(p.Price * o.Quantity) AS TotalSales,
-           s.TargetAmount
-    FROM Orders o
-    JOIN Products p ON o.ProductID = p.ProductID
-    JOIN Salespersons s ON o.SalespersonID = s.SalespersonID
-    GROUP BY s.SalespersonID, s.SalespersonName, s.TargetAmount
-)
-SELECT *, (TotalSales - TargetAmount) AS PerformanceGap
-FROM SalesPerformance;
-```
-📷 Screenshot: `screenshots/query8.png`
-
----
-
-### 9. Cities with More Than 2 Customers
-```sql
-WITH CityCustomers AS (
-    SELECT City, COUNT(CustomerID) AS CustomerCount
-    FROM Customers
-    GROUP BY City
-)
-SELECT * FROM CityCustomers WHERE CustomerCount > 2;
-```
-📷 Screenshot: `screenshots/query9.png`
-
----
-
-### 10. Total Sales Per Day
-```sql
-WITH DailySales AS (
-    SELECT OrderDate, SUM(p.Price * o.Quantity) AS TotalSales
-    FROM Orders o
-    JOIN Products p ON o.ProductID = p.ProductID
-    GROUP BY OrderDate
-)
-SELECT * FROM DailySales;
-```
-📷 Screenshot: `screenshots/query10.png`
-
----
 
 ### 11. Customers Whose Purchase > Average Purchase
 ```sql
