@@ -189,6 +189,7 @@ WITH CategorySales AS (
 )
 SELECT * FROM CategorySales;
 ```
+- <img width="708" height="488" alt="Screenshot 2026-06-11 201013" src="https://github.com/user-attachments/assets/e876023e-e40a-4367-8566-8759fb518dc1" />
 
 
 ---
