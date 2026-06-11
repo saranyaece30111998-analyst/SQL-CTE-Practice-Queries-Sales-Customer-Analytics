@@ -1,7 +1,5 @@
 # SQL-CTE-Practice-Queries-Sales-Customer-Analytics
 
-# SQL CTE Practice Queries – Customer & Sales Analytics
-
 ## 📌 Overview
 This repository contains **15 SQL Common Table Expression (CTE) practice queries** built on a sample business schema with **Customers, Products, Salespersons, and Orders** tables.  
 Each query demonstrates how to use CTEs for **analytics, reporting, and interview preparation**.  
