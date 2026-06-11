@@ -141,7 +141,7 @@ WITH CityCustomers AS (
 )
 SELECT * FROM CityCustomers WHERE CustomerCount > 2;
 ```
-📷 Screenshot: `sc
+
 
 ---
 
