@@ -206,6 +206,7 @@ FROM Products p
 JOIN CategoryAvgPrice c ON p.Category = c.Category
 WHERE p.Price > c.AvgPrice;
 ```
+- <img width="953" height="577" alt="Screenshot 2026-06-11 201113" src="https://github.com/user-attachments/assets/7f5b98d5-1612-4cd8-bc5d-d0d2f018aaab" />
 
 
 ---
