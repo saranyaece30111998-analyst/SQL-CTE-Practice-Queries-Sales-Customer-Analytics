@@ -228,7 +228,7 @@ SalesRank AS (
 )
 SELECT * FROM SalesRank;
 ```
-📷 Screenshot: `screenshots/query14.png`
+- <img width="800" height="777" alt="Screenshot 2026-06-11 201238" src="https://github.com/user-attachments/assets/a88badd0-2402-4b9e-bd49-b59f16e5abf5" />
 
 ---
 
