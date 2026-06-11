@@ -189,7 +189,7 @@ WITH CategorySales AS (
 )
 SELECT * FROM CategorySales;
 ```
-📷 Screenshot: `screenshots/query12.png`
+
 
 ---
 
