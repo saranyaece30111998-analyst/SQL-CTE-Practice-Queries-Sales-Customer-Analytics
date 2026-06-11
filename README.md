@@ -155,7 +155,6 @@ WITH DailySales AS (
 )
 SELECT * FROM DailySales;
 ```
-📷 Screenshot: `screenshots/query10.png`
 
 ---
 
