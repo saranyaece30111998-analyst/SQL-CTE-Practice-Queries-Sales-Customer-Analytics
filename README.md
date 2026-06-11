@@ -175,7 +175,6 @@ AvgPurchase AS (
 SELECT * FROM CustomerPurchase cp, AvgPurchase ap
 WHERE cp.TotalPurchase > ap.AvgPurchaseAmount;
 ```
-📷 Screenshot: `screenshots/query11.png`
 
 ---
 
