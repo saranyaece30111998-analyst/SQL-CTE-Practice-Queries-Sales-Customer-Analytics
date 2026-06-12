@@ -115,7 +115,7 @@ WITH ProductRevenue AS (
 )
 SELECT * FROM ProductRevenue;
 ```
-📷 Screenshot: `screenshots/query7.png`
+- 
 
 ---
 
