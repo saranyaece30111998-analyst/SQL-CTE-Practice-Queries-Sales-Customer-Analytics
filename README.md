@@ -57,7 +57,7 @@ WITH SalespersonSales AS (
 )
 SELECT * FROM SalespersonSales;
 ```
-📷 Screenshot: `screenshots/query3.png`
+
 
 ---
 
