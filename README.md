@@ -27,7 +27,8 @@ WITH CustomerQuantity AS (
 SELECT * FROM CustomerQuantity WHERE TotalQuantity > 3;
 ```
 
-- 
+- <img width="1237" height="507" alt="Screenshot 2026-06-12 201636" src="https://github.com/user-attachments/assets/314a9d94-14d5-4a5c-a95b-953076b836b3" />
+
 ---
 
 ### 2. Total Sales Amount per Order
