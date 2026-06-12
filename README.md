@@ -85,7 +85,8 @@ WITH CustomerOrders AS (
 )
 SELECT * FROM CustomerOrders;
 ```
-📷 Screenshot: `screenshots/query5.png`
+- <img width="607" height="532" alt="Screenshot 2026-06-12 201859" src="https://github.com/user-attachments/assets/616b624a-8dde-41af-a726-a3dab14b936b" />
+
 
 ---
 
