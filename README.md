@@ -57,6 +57,7 @@ WITH SalespersonSales AS (
 )
 SELECT * FROM SalespersonSales;
 ```
+- <img width="781" height="617" alt="Screenshot 2026-06-12 201748" src="https://github.com/user-attachments/assets/bc74149d-8371-4d41-bccb-119d66b926e7" />
 
 
 ---
