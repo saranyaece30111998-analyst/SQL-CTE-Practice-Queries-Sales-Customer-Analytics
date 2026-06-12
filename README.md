@@ -71,7 +71,8 @@ WITH CategoryAvg AS (
 )
 SELECT * FROM CategoryAvg;
 ```
-- 
+- <img width="636" height="427" alt="Screenshot 2026-06-12 201827" src="https://github.com/user-attachments/assets/e3e09a7a-7920-4cd6-8727-106a609f1c93" />
+
 
 ---
 
