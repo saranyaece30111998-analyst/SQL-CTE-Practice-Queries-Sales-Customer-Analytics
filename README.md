@@ -115,7 +115,8 @@ WITH ProductRevenue AS (
 )
 SELECT * FROM ProductRevenue;
 ```
-- 
+- <img width="932" height="597" alt="Screenshot 2026-06-12 201959" src="https://github.com/user-attachments/assets/ec28d7ee-c99a-41f9-9bb8-50b7260da5fd" />
+
 
 ---
 
