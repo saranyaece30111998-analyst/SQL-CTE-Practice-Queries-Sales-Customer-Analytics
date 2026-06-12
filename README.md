@@ -101,7 +101,6 @@ SELECT * FROM ProductSales
 ORDER BY TotalSold DESC
 LIMIT 3;
 ```
-📷 Screenshot: `screenshots/query6.png`
 
 ---
 
