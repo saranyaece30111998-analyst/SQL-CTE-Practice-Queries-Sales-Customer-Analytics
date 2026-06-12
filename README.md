@@ -253,7 +253,7 @@ SELECT * FROM CustomerProducts WHERE ProductCount > 1;
 
 ---
 
-## 📷 Screenshots
+
 
 
 ---
