@@ -40,6 +40,7 @@ WITH OrderSales AS (
 )
 SELECT * FROM OrderSales;
 ```
+- <img width="1027" height="597" alt="Screenshot 2026-06-12 201714" src="https://github.com/user-attachments/assets/4ac731bc-4a3b-4f16-af8e-2d5246362ba6" />
 
 
 ---
