@@ -147,6 +147,7 @@ WITH CityCustomers AS (
 )
 SELECT * FROM CityCustomers WHERE CustomerCount > 2;
 ```
+- <img width="726" height="491" alt="Screenshot 2026-06-12 202024" src="https://github.com/user-attachments/assets/4d231f2f-629d-4512-82e2-3c391d4ae87d" />
 
 
 ---
