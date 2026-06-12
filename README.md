@@ -101,6 +101,7 @@ SELECT * FROM ProductSales
 ORDER BY TotalSold DESC
 LIMIT 3;
 ```
+- <img width="832" height="586" alt="Screenshot 2026-06-12 201928" src="https://github.com/user-attachments/assets/987391af-a031-474e-82e9-0488ac67881c" />
 
 ---
 
