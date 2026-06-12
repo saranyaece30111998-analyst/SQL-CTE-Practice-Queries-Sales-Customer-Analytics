@@ -254,7 +254,7 @@ SELECT * FROM CustomerProducts WHERE ProductCount > 1;
 ---
 
 ## 📷 Screenshots
-All query outputs are stored in the `screenshots/` folder with filenames `query1.png`, 
+All query outputs are stored in the `screenshots/` folder with 
 
 ---
 
