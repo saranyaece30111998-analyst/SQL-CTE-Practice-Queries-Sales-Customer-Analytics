@@ -252,12 +252,6 @@ SELECT * FROM CustomerProducts WHERE ProductCount > 1;
 
 
 ---
-
-
-
-
----
-
 ## 🎯 Purpose
 - Practice SQL **CTEs** for analytics  
 - Prepare for **interviews** with real-world scenarios  
