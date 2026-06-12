@@ -40,7 +40,7 @@ WITH OrderSales AS (
 )
 SELECT * FROM OrderSales;
 ```
-📷 Screenshot: `screenshots/query2.png`
+
 
 ---
 
