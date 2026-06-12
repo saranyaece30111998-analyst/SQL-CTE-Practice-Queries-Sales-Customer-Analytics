@@ -71,7 +71,7 @@ WITH CategoryAvg AS (
 )
 SELECT * FROM CategoryAvg;
 ```
-📷 Screenshot: `screenshots/query4.png`
+- 
 
 ---
 
